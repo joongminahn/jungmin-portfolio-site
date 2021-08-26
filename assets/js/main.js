@@ -1,9 +1,3 @@
-/**
-* Template Name: Arsha - v4.3.0
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -264,10 +258,10 @@ const swiper = new Swiper('.swiper-container', {
   loop: true,
   // spaceBetween: 30,
   centeredSlides: true,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,    
-  }, 
+  // autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: false,    
+  // }, 
   speed: 1400,
   speed: 1000,  
 
@@ -285,15 +279,15 @@ const swiper = new Swiper('.swiper-container', {
 
 });
 
-let $slides = document.querySelectorAll('.swiper-slide');
-for (let i of $slides) {
-  i.addEventListener('mouseover', function(){
-    swiper.autoplay.stop();
-  });
-  i.addEventListener('mouseout', function(){
-    swiper.autoplay.start();
-  });
-}
+// let $slides = document.querySelectorAll('.swiper-slide');
+// for (let i of $slides) {
+//   i.addEventListener('mouseover', function(){
+//     swiper.autoplay.stop();
+//   });
+//   i.addEventListener('mouseout', function(){
+//     swiper.autoplay.start();
+//   });
+// }
 
 
 
