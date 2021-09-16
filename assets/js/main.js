@@ -144,7 +144,6 @@
       }
     }
   });
-
   /**
    * Preloader
    */
@@ -154,7 +153,6 @@
       preloader.remove()
     });
   }
-
   /**
    * Initiate  glightbox 
    */
@@ -178,7 +176,6 @@
       }
     })
   }
-
   /**
    * Porfolio isotope and filter
    */
@@ -206,19 +203,13 @@
         });
       }, true);
     }
-
   });
-
   /**
    * Initiate portfolio lightbox 
    */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
-
-  
-
-
   /**
    * Portfolio details slider
    */
