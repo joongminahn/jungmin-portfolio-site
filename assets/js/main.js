@@ -249,12 +249,14 @@ const swiper = new Swiper('.swiper-container', {
   loop: true,
   // spaceBetween: 30,
   centeredSlides: true,
-  // autoplay: {
-  //   delay: 3000,
-  //   disableOnInteraction: false,    
-  // }, 
+  //자동으로 페이징
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,    
+  }, 
   speed: 1400,
   speed: 1000,  
+//자동으로 페이징 end
 
   // If we need pagination
   pagination: {
