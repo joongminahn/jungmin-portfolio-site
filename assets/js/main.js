@@ -251,7 +251,7 @@ const swiper = new Swiper('.swiper-container', {
   centeredSlides: true,
   //자동으로 페이징
   autoplay: {
-    delay: 4000,
+    delay: 5000,
     disableOnInteraction: false,    
   }, 
   speed: 1400,
