@@ -1,6 +1,5 @@
 (function() {
   "use strict";
-
   /**
    * Easy selector helper function
    */
@@ -12,7 +11,6 @@
       return document.querySelector(el)
     }
   }
-
   /**
    * Easy event listener function
    */
@@ -26,7 +24,6 @@
       }
     }
   }
-
   /**
    * Easy on scroll event listener 
    */
@@ -240,48 +237,3 @@
   });
 
 })();
-
-// Swiper
-
-const swiper = new Swiper('.swiper-container', {
-  // Optional parameters
-  direction: 'horizontal',
-  loop: true,
-  // spaceBetween: 30,
-  centeredSlides: true,
-  //자동으로 페이징
-  autoplay: {
-    delay: 6000,
-    disableOnInteraction: false,    
-  }, 
-  speed: 1400,
-  speed: 1000,  
-//자동으로 페이징 end
-
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-});
-
-// let $slides = document.querySelectorAll('.swiper-slide');
-// for (let i of $slides) {
-//   i.addEventListener('mouseover', function(){
-//     swiper.autoplay.stop();
-//   });
-//   i.addEventListener('mouseout', function(){
-//     swiper.autoplay.start();
-//   });
-// }
-
-
-
-
