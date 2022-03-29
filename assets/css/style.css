@@ -102,7 +102,25 @@ h3{
       transform: translateX(-50%);      
       width: 100%;
      }
+    #skills {      
+       padding: 0;  
+       margin-top: 120px;
+    }    
+    #about.about>.container {      
+      height: 1080px !important;
+    }
+    .profile-image {
+      left: 64% !important;
+    }
    }  
+@media (max-width: 425px) {
+  .profile-image {
+    left: 44% !important; 
+ }
+  .btn-learn-more {
+    margin-top: 40px !important;
+  }
+}
 /*--------------------------------------------------------------
 # Video
 --------------------------------------------------------------*/
@@ -310,7 +328,6 @@ h3{
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
@@ -648,25 +665,28 @@ section {
   position: relative;
   color: #37517e;
 }
-.section-title h2::before {
+/* .section-title h2::before {
   content: '';
   position: absolute;
   display: block;
   width: 120px;
-  height: 1px;
+  height: 3px;
+  background: #47b2e4;
   background: #ddd;
-  bottom: 1px;
+  bottom: 0px;
   left: calc(50% - 60px);
-}
+} */
 .section-title h2::after {
   content: '';
   position: absolute;
   display: block;
-  width: 40px;
+  /* width: 40px; */
+  width: 60px;
   height: 3px;
   background: #47b2e4;
   bottom: 0;
-  left: calc(50% - 20px);
+  /* left: calc(50% - 20px); */
+  left: calc(50% - 30px);
 }
 
 .section-title p {
@@ -799,10 +819,9 @@ section {
    }
    .text-group.last {
      background-color: transparent;
-   }
-  
+   }  
   #about.about {
-    height: 1200px
+    height: 1100px;
   }
  }
  #about.about>.container>.row>.col-lg-6.left .profile-image .profile-image-b{
@@ -1040,6 +1059,10 @@ section {
   .cta {
     background-attachment: scroll;
   }
+  .profile-image-i {
+    left: -30%;
+  }
+
 }
 @media (min-width: 769px) {  
   .cta .cta-btn-container {
@@ -1078,7 +1101,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   background: #47b2e4;
-  color: #fff;
+  color: #fff;  
 }
 
 .portfolio .portfolio-item {
@@ -1329,8 +1352,7 @@ text-decoration:underline;
     .welcome {
       text-align: center;
       width: 100%;      
-    }
-    
+    }    
     .col-lg-9 .portfolio-scroll .scroll-wrapper .portfolio-items {
       display: flex;
       justify-content: center;
@@ -1338,6 +1360,9 @@ text-decoration:underline;
     .col-lg-9 .portfolio-scroll .scroll-wrapper .portfolio-items img{
       zoom: 0.6
      }
+    .profile-image {
+      left: 52% !important;
+    } 
     }
   @media (max-width: 664px) {
     .col-lg-9 .portfolio-scroll .scroll-wrapper .portfolio-items {
@@ -1701,7 +1726,7 @@ text-decoration:underline;
    #footer .container.footer-bottom .indication-box {
      width: 100%;
      margin-left: 16%;
-    } 
+    }    
  }
 
 @media (max-width: 578px) {  
