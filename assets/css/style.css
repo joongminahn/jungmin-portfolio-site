@@ -1189,9 +1189,13 @@ text-decoration:underline;
   margin-bottom: 10px; 
 }
 .col-lg-9 .portfolio-scroll .scroll-wrapper .portfolio-items img{
-  width: auto;
-  height: auto;
+  /* width: auto;
+  height: auto; */
+  width: 960px;
+  height: 540px;
   display: block;
+  object-fit: cover;
+
   /* visibility: hidden; */
  } 
  .portfolio-details {
