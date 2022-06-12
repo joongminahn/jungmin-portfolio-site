@@ -665,17 +665,6 @@ section {
   position: relative;
   color: #37517e;
 }
-/* .section-title h2::before {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 120px;
-  height: 3px;
-  background: #47b2e4;
-  background: #ddd;
-  bottom: 0px;
-  left: calc(50% - 60px);
-} */
 .section-title h2::after {
   content: '';
   position: absolute;
@@ -1180,11 +1169,6 @@ text-decoration:underline;
 /*--------------------------------------------------------------
 # Portfolio Details-Scroll
 --------------------------------------------------------------*/
-.col-lg-9 {}
-.col-lg-9 .portfolio-scroll{
-
-}
-.col-lg-9 .portfolio-scroll .scroll-wrapper{}
 .col-lg-9 .portfolio-scroll .scroll-wrapper .portfolio-items{  
   margin-bottom: 10px; 
 }
@@ -1776,6 +1760,7 @@ text-decoration:underline;
 }
 #footer .credits a {
   transition: 0.3s;
+}
 }
 @media (max-width: 768px) {  
   #footer .footer-bottom {
