@@ -3,7 +3,7 @@ html {
   min-width: 340px;
 }
 body {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Noto sans", sans-serif;  
   color: #444444;  
 }
 a {
@@ -897,7 +897,7 @@ section {
   margin-bottom: 0;
 }
 .about .content .btn-learn-more {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Noto sans", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -962,7 +962,7 @@ section {
   font-weight: 700;
   font-size: 32px;
   color: #37517e;
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Noto sans", sans-serif;
   letter-spacing:-0.004em;  
 }
 .skills .content ul {
@@ -993,7 +993,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Noto sans", sans-serif;
   color: #37517e;
 }
 .skills .progress .skill .val {
@@ -1084,7 +1084,7 @@ section {
   transition: all 0.3s;
   padding: 8px 20px;
   border-radius: 50px;
-  font-family: "Noto Sans KR", sans-serif;  
+  font-family: "Noto sans", sans-serif;  
 }
 
 .portfolio #portfolio-flters li:hover,
